@@ -1,18 +1,19 @@
+![Repo Cover](.doc/assets/readme_banner.jpg)
+
+# ChatterPay
 ![](https://img.shields.io/badge/Next.js-informational?style=flat&logo=next.js&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/Typescript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/scss-informational?style=flat&logo=scss&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/mui-informational?style=flat&logo=mui&logoColor=white&color=6aa6f8)
 ![](https://img.shields.io/badge/react.js-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
 
-# ChatterPay
-
 [Chatterpay](https://chatterpay.net) is a Wallet for WhatsApp that integrates AI and Account Abstraction, enabling any user to use blockchain easily and securely without technical knowledge.
 
 > Create Wallet, Transfer, Swap, and mint NFTs — directly from WhatsApp!
 
-> Built for: [Level Up Hackathon - Ethereum Argentina 2024](https://ethereumargentina.org/) & [Ethereum Uruguay 2024](https://www.ethereumuruguay.org/)
+> Built for: [ICP WCHL25 Hackathon](https://dorahacks.io/hackathon/wchl25-national-round)
 
-> Build By: [mpefaur](https://github.com/mpefaur), [tomasfrancizco](https://github.com/tomasfrancizco), [TomasDmArg](https://github.com/TomasDmArg), [gonzageraci](https://github.com/gonzageraci), [dappsar](https://github.com/dappsar)
+> Build By: [mpefaur](https://github.com/mpefaur), [TomasDmArg](https://github.com/TomasDmArg), [dappsar](https://github.com/dappsar)
 
 
 **Get started with our Bot 🤖**:
@@ -22,9 +23,9 @@
 
 **Components**:
 
-- Landing Page ([product](https://chatterpay.net), [source code](https://github.com/P4-Games/ChatterPay)) (this Repo)
-- User Dashboard Website ([product](https://chatterpay.net/dashboard), [source code](https://github.com/P4-Games/ChatterPay)) (this Repo)
-- Backend API ([source code](https://github.com/P4-Games/ChatterPay-Backend))
+- Landing Page ([product](https://chatterpay.net), [source code](https://github.com/P4-Games/ChatterPay-ICP-Frontend)) (this Repo)
+- User Dashboard Website ([product](https://chatterpay.net/dashboard), [source code](https://github.com/P4-Games/ChatterPay-ICP-Frontend)) (this Repo)
+- Backend API in ICP ([source code](https://github.com/P4-Games/ChatterPay-Backend))
 - Smart Contracts ([source code](https://github.com/P4-Games/ChatterPay-SmartContracts))
 - Data Indexing (Subgraph) ([source code](https://github.com/P4-Games/ChatterPay-Subgraph))
 - Bot AI (Chatizalo) ([product](https://chatizalo.com/))
@@ -32,11 +33,15 @@
 
 <p>&nbsp;</p>
 
-![Components Interaction](https://github.com/P4-Games/ChatterPay-Backend/blob/develop/.doc/technical-overview/chatterpay-architecture-conceptual-view.jpg?raw=true)
-
 # About this repo
 
 This repository contains the source code for the landing page and user dashboard.
+
+This is part of the ChatterPay's multi-canister architecture in ICP.
+
+Compared to the frontend found in the other repository, this one has key changes for compatibility with ICP, and is designed to interact directly with the Backend in ICP.
+
+![ICP Architecture](.doc/assets/icp_architecture.jpeg)
 
 **Build With**:
 
@@ -54,9 +59,7 @@ This repository contains the source code for the landing page and user dashboard
 - Analytics: [Google Analytics](https://analytics.google.com/) [MS Clarity](https://clarity.microsoft.com/)
 
 **deploy with**:
-
-- Landing Page (static): [ICP](https://internetcomputer.org/)
-- User Dashboard: [Google Cloud](https://cloud.google.com/)
+- User Dashboard: [ICP](https://internetcomputer.org/)
 
 # Getting Started
 
@@ -108,7 +111,7 @@ Then, open brower in: `http://localhost:3000`.
 
 **6. Deploy to ICP**:
 
-To deploy the landing (static code) to the [Internet Computer (ICP)](https://internetcomputer.org/), you can follow the steps described in the [Deployment Guidelines](./.doc/deployment/deploy-guidelines).
+To deploy to the [Internet Computer (ICP)](https://internetcomputer.org/), you can follow the steps described in the [Deployment Guidelines](./.doc/deployment/deploy-guidelines).
 
 URL of the deployed app on ICP: https://cilxj-yiaaa-aaaag-alkxq-cai.icp0.io/
 
